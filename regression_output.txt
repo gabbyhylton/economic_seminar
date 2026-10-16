@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Attainment   R-squared:                       0.759
+Model:                            OLS   Adj. R-squared:                  0.750
+Method:                 Least Squares   F-statistic:                     90.07
+Date:                Thu, 15 Oct 2026   Prob (F-statistic):           1.88e-26
+Time:                        22:05:42   Log-Likelihood:                -306.78
+No. Observations:                  90   AIC:                             621.6
+Df Residuals:                      86   BIC:                             631.6
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          38.7428      3.443     11.254      0.000      31.899      45.587
+Cost            0.0010      0.000      3.602      0.001       0.000       0.002
+Aid            -0.0005      0.001     -0.530      0.597      -0.002       0.001
+IncomeClass   -25.2867      1.577    -16.031      0.000     -28.422     -22.151
+==============================================================================
+Omnibus:                        0.592   Durbin-Watson:                   1.729
+Prob(Omnibus):                  0.744   Jarque-Bera (JB):                0.299
+Skew:                           0.131   Prob(JB):                        0.861
+Kurtosis:                       3.104   Cond. No.                     5.26e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.26e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
